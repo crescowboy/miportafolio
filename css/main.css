@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@700&display=swap');
+body{
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 100px ;
+}
+
+.horizontal-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+
+.vertical-padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media(min-width: 950px){
+    .horizontal-padding{
+        padding-left: 70px;
+        padding-right: 70px;
+    } 
+    
+    .vertical-padding{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
